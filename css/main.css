@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+
+a{
+
+text-decoration: none;
+cursor:pointer ;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    font-size: 1.6rem;
+    
+}
+
+header nav{
+    display:flex;
+    justify-content:flex-end;
+}
+
+header nav .nav-ul{
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+nav .nav-ul a{
+    margin-right: 1rem;
+    color: #000000;
+    
+}
